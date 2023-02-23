@@ -30,8 +30,7 @@ class ReturnWrapper(gym.Wrapper):
 
     def step(self, action):
         obs, reward, done, info = self.env.step(action)
-        # TODO: reward가 왜 0또는 1이 아니지?
-        self.total_rewards += np.ceil(reward)
+        self.total_rewards += reward
         self.steps += 1
         if done:
             info['returns/episodic_reward'] = self.total_rewards
@@ -43,57 +42,16 @@ class ReturnWrapper(gym.Wrapper):
             info['returns/episodic_length'] = None
         return obs, reward, done, info
 
-
-class FlattenWrapper(gym.core.ObservationWrapper):
+class ImgObsWrapper(gym.core.ObservationWrapper):
     """
-    Fully observable gridworld using a compact grid encoding
+    Use the image as the only observation output, no language/mission.
     """
-
     def __init__(self, env):
         super().__init__(env)
-        imgSpace = env.observation_space.spaces['image']
-        self.observation_space = spaces.Box(
-            low=0,
-            high=255,
-            shape=imgSpace.shape,
-            dtype='uint8'
-        )
-    #
-    # def step(self, action):
-    #     obs, reward, done, info = self.env.step(action)
-    #
-    #     env = self.unwrapped
-    #     tup = (tuple(env.agent_pos), env.agent_dir, action)
-    #
-    #     # Get the count for this (s,a) pair
-    #     pre_count = 0
-    #     if tup in self.counts:
-    #         pre_count = self.counts[tup]
-    #
-    #     # Update the count for this (s,a) pair
-    #     new_count = pre_count + 1
-    #     self.counts[tup] = new_count
-    #
-    #     bonus = 1 / math.sqrt(new_count)
-    #     reward += bonus
-    #
-    #     return obs, reward, done, info
+        self.observation_space = env.observation_space.spaces['image']
+
     def observation(self, obs):
-        env = self.unwrapped
-        full_grid = env.grid.encode()
-        full_grid[env.agent_pos[0]][env.agent_pos[1]] = np.array([
-            OBJECT_TO_IDX['agent'],
-            COLOR_TO_IDX['red'],
-            env.agent_dir
-        ])
-
-        return full_grid
-
-def flatten_fullview_wrapper(env):
-    env = FullyObsWrapper(env)
-    env = FlattenWrapper(env)
-    env = ReturnWrapper(env)
-    return env
+        return obs['image']
 
 def basic_birdview_wrapper(env):
     """Use this as a wrapper only for cartpole etc."""
@@ -124,7 +82,16 @@ def atari_wrapper(env):
 
 def make_envs(env_name, num_envs, seed=0, partial=1):
     env_ = gym.make(env_name)
-    wrapper_fn = flatten_fullview_wrapper
+    is_atari = hasattr(gym.envs, 'atari') and isinstance(
+            env_.unwrapped, gym.envs.atari.atari_env.AtariEnv)
+
+    if is_atari:
+        wrapper_fn = atari_wrapper
+    elif partial:
+        wrapper_fn = basic_birdview_wrapper
+    else:
+        wrapper_fn = basic_wrapper
+
     envs = gym.vector.make(env_name, num_envs, wrappers=wrapper_fn)
     envs.seed(seed)
     return envs
