@@ -1,0 +1,165 @@
+{
+    "os": "Linux-5.15.0-58-generic-x86_64-with-glibc2.17",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-03-10T08:10:23.864261",
+    "startedAt": "2023-03-10T08:10:23.229356",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py",
+    "codePath": "feudalnet_main.py",
+    "git": {
+        "remote": "https://github.com/Jong-w/MeltingpotNets_pytorch.git",
+        "commit": "afd53fcde9448a3f6a0782ed085bac4dfa7ad02d"
+    },
+    "email": "dongjaekim@dankook.ac.kr",
+    "root": "/media/dongjae/vol4/MeltingpotNets_pytorch",
+    "host": "gpu2",
+    "username": "dongjae",
+    "executable": "/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3477.55925,
+        "min": 800.0,
+        "max": 4133.333333333333
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 5261.422,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "total": 457.37467193603516,
+        "used": 87.07452011108398
+    },
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 62.6185417175293
+    }
+}

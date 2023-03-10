@@ -1,0 +1,185 @@
+2023-03-10 18:52:37,351 INFO    StreamThr :379731 [internal.py:wandb_internal():87] W&B internal server running at pid: 379731, started at: 2023-03-10 18:52:37.351519
+2023-03-10 18:52:37,352 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: status
+2023-03-10 18:52:37,353 INFO    WriterThread:379731 [datastore.py:open_for_write():85] open: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/run-x2sqplbv.wandb
+2023-03-10 18:52:37,354 DEBUG   SenderThread:379731 [sender.py:send():336] send: header
+2023-03-10 18:52:37,361 DEBUG   SenderThread:379731 [sender.py:send():336] send: run
+2023-03-10 18:52:37,842 INFO    SenderThread:379731 [dir_watcher.py:__init__():216] watching files in: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files
+2023-03-10 18:52:37,842 INFO    SenderThread:379731 [sender.py:_start_run_threads():1067] run started: x2sqplbv with start time 1678441957.351402
+2023-03-10 18:52:37,842 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 18:52:37,842 INFO    SenderThread:379731 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-10 18:52:37,843 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: check_version
+2023-03-10 18:52:37,843 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: check_version
+2023-03-10 18:52:37,910 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: run_start
+2023-03-10 18:52:37,913 DEBUG   HandlerThread:379731 [system_info.py:__init__():31] System info init
+2023-03-10 18:52:37,914 DEBUG   HandlerThread:379731 [system_info.py:__init__():46] System info init done
+2023-03-10 18:52:37,914 INFO    HandlerThread:379731 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 18:52:37,914 INFO    SystemMonitor:379731 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 18:52:37,914 INFO    HandlerThread:379731 [system_monitor.py:probe():172] Collecting system info
+2023-03-10 18:52:37,914 INFO    SystemMonitor:379731 [interfaces.py:start():168] Started cpu
+2023-03-10 18:52:37,914 INFO    SystemMonitor:379731 [interfaces.py:start():168] Started disk
+2023-03-10 18:52:37,914 INFO    SystemMonitor:379731 [interfaces.py:start():168] Started gpu
+2023-03-10 18:52:37,914 INFO    SystemMonitor:379731 [interfaces.py:start():168] Started memory
+2023-03-10 18:52:37,915 INFO    SystemMonitor:379731 [interfaces.py:start():168] Started network
+2023-03-10 18:52:37,940 DEBUG   HandlerThread:379731 [system_info.py:probe():195] Probing system
+2023-03-10 18:52:37,942 DEBUG   HandlerThread:379731 [system_info.py:_probe_git():180] Probing git
+2023-03-10 18:52:37,949 DEBUG   HandlerThread:379731 [system_info.py:_probe_git():188] Probing git done
+2023-03-10 18:52:37,949 DEBUG   HandlerThread:379731 [system_info.py:probe():241] Probing system done
+2023-03-10 18:52:37,949 DEBUG   HandlerThread:379731 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-58-generic-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2023-03-10T09:52:37.940233', 'startedAt': '2023-03-10T09:52:37.346849', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py', 'codePath': 'feudalnet_main.py', 'git': {'remote': 'https://github.com/Jong-w/MeltingpotNets_pytorch.git', 'commit': 'afd53fcde9448a3f6a0782ed085bac4dfa7ad02d'}, 'email': 'dongjaekim@dankook.ac.kr', 'root': '/media/dongjae/vol4/MeltingpotNets_pytorch', 'host': 'gpu2', 'username': 'dongjae', 'executable': '/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3479.1666666666665, 'min': 800.0, 'max': 4133.333333333333}, 'cpu_freq_per_core': [{'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 5300.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4100.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}, {'current': 3400.0, 'min': 800.0, 'max': 4200.0}], 'disk': {'total': 457.37467193603516, 'used': 87.1096305847168}, 'gpu': 'NVIDIA GeForce RTX 3070', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070', 'memory_total': 8589934592}], 'memory': {'total': 62.6185417175293}}
+2023-03-10 18:52:37,949 INFO    HandlerThread:379731 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-10 18:52:37,949 INFO    HandlerThread:379731 [system_monitor.py:probe():185] Publishing system info
+2023-03-10 18:52:37,949 DEBUG   HandlerThread:379731 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-10 18:52:37,949 DEBUG   HandlerThread:379731 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-10 18:52:37,949 DEBUG   HandlerThread:379731 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-10 18:52:38,843 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_created():275] file/dir created: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/wandb-summary.json
+2023-03-10 18:52:38,843 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_created():275] file/dir created: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/requirements.txt
+2023-03-10 18:52:38,843 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_created():275] file/dir created: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/conda-environment.yaml
+2023-03-10 18:52:39,053 DEBUG   HandlerThread:379731 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-10 18:52:39,053 INFO    HandlerThread:379731 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-10 18:52:39,056 DEBUG   SenderThread:379731 [sender.py:send():336] send: files
+2023-03-10 18:52:39,057 INFO    SenderThread:379731 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-10 18:52:39,059 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-10 18:52:39,059 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: stop_status
+2023-03-10 18:52:39,265 DEBUG   SenderThread:379731 [sender.py:send():336] send: telemetry
+2023-03-10 18:52:39,265 DEBUG   SenderThread:379731 [sender.py:send():336] send: telemetry
+2023-03-10 18:52:39,265 DEBUG   SenderThread:379731 [sender.py:send():336] send: run
+2023-03-10 18:52:39,510 INFO    SenderThread:379731 [sender.py:send_run():944] updated run: x2sqplbv
+2023-03-10 18:52:39,690 DEBUG   SenderThread:379731 [sender.py:send():336] send: telemetry
+2023-03-10 18:52:39,707 DEBUG   SenderThread:379731 [sender.py:send():336] send: telemetry
+2023-03-10 18:52:39,785 INFO    wandb-upload_0:379731 [upload_job.py:push():138] Uploaded file /tmp/tmpje2rzbp5wandb/v77piypm-wandb-metadata.json
+2023-03-10 18:52:39,843 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_modified():292] file/dir modified: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/config.yaml
+2023-03-10 18:52:39,843 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_modified():292] file/dir modified: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/conda-environment.yaml
+2023-03-10 18:52:39,843 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_created():275] file/dir created: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/output.log
+2023-03-10 18:52:39,843 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_created():275] file/dir created: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/wandb-metadata.json
+2023-03-10 18:52:40,953 DEBUG   SenderThread:379731 [sender.py:send():336] send: exit
+2023-03-10 18:52:40,953 INFO    SenderThread:379731 [sender.py:send_exit():559] handling exit code: 1
+2023-03-10 18:52:40,953 INFO    SenderThread:379731 [sender.py:send_exit():561] handling runtime: 3
+2023-03-10 18:52:40,954 INFO    SenderThread:379731 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-10 18:52:40,954 INFO    SenderThread:379731 [sender.py:send_exit():567] send defer
+2023-03-10 18:52:40,954 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:40,954 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-10 18:52:40,954 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:40,955 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-10 18:52:40,955 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 1
+2023-03-10 18:52:40,955 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:40,955 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-10 18:52:40,955 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:40,955 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-10 18:52:40,955 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 2
+2023-03-10 18:52:40,955 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:40,955 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-10 18:52:40,955 INFO    HandlerThread:379731 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 18:52:40,955 DEBUG   SystemMonitor:379731 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 18:52:40,955 DEBUG   SystemMonitor:379731 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 18:52:40,955 DEBUG   SystemMonitor:379731 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 18:52:40,956 INFO    HandlerThread:379731 [interfaces.py:finish():175] Joined cpu
+2023-03-10 18:52:40,956 INFO    HandlerThread:379731 [interfaces.py:finish():175] Joined disk
+2023-03-10 18:52:40,990 INFO    HandlerThread:379731 [interfaces.py:finish():175] Joined gpu
+2023-03-10 18:52:40,990 INFO    HandlerThread:379731 [interfaces.py:finish():175] Joined memory
+2023-03-10 18:52:40,990 INFO    HandlerThread:379731 [interfaces.py:finish():175] Joined network
+2023-03-10 18:52:40,990 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:40,990 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-10 18:52:40,990 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 3
+2023-03-10 18:52:40,990 DEBUG   SenderThread:379731 [sender.py:send():336] send: stats
+2023-03-10 18:52:40,990 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:40,990 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-10 18:52:40,990 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:40,990 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-10 18:52:40,990 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 4
+2023-03-10 18:52:40,991 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:40,991 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-10 18:52:40,991 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:40,991 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-10 18:52:40,991 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 5
+2023-03-10 18:52:40,991 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:40,991 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-10 18:52:40,991 DEBUG   SenderThread:379731 [sender.py:send():336] send: summary
+2023-03-10 18:52:40,991 INFO    SenderThread:379731 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-10 18:52:40,991 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:40,991 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-10 18:52:40,991 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 6
+2023-03-10 18:52:40,991 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:40,991 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-10 18:52:40,991 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:40,991 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-10 18:52:40,993 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 18:52:41,229 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 7
+2023-03-10 18:52:41,229 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:41,229 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-10 18:52:41,229 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:41,229 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-10 18:52:41,715 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 8
+2023-03-10 18:52:41,715 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:41,716 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-10 18:52:41,716 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:41,716 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-10 18:52:41,719 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 9
+2023-03-10 18:52:41,719 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:41,719 DEBUG   SenderThread:379731 [sender.py:send():336] send: artifact
+2023-03-10 18:52:41,719 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-10 18:52:41,844 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_modified():292] file/dir modified: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/wandb-summary.json
+2023-03-10 18:52:41,845 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_modified():292] file/dir modified: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/output.log
+2023-03-10 18:52:41,845 INFO    Thread-13 :379731 [dir_watcher.py:_on_file_modified():292] file/dir modified: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/config.yaml
+2023-03-10 18:52:41,953 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-10 18:52:43,375 INFO    wandb-upload_1:379731 [upload_job.py:push():96] Uploaded file /home/dongjae/.local/share/wandb/artifacts/staging/tmpnquk7upd
+2023-03-10 18:52:43,378 INFO    wandb-upload_0:379731 [upload_job.py:push():96] Uploaded file /home/dongjae/.local/share/wandb/artifacts/staging/tmpf1roxnq5
+2023-03-10 18:52:44,756 INFO    SenderThread:379731 [sender.py:send_artifact():1417] sent artifact job-https___github.com_Jong-w_MeltingpotNets_pytorch.git_feudalnet_main.py - {'id': 'QXJ0aWZhY3Q6MzkzMjc4MjY1', 'digest': '954df0f8164cdafcf7cdf9b610c45d84', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2NTcyMDky', 'latestArtifact': None}, 'version': 'latest'}
+2023-03-10 18:52:44,757 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:44,757 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-10 18:52:44,757 INFO    SenderThread:379731 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-10 18:52:44,846 INFO    SenderThread:379731 [dir_watcher.py:finish():392] scan: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files
+2023-03-10 18:52:44,846 INFO    SenderThread:379731 [dir_watcher.py:finish():406] scan save: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/conda-environment.yaml conda-environment.yaml
+2023-03-10 18:52:44,846 INFO    SenderThread:379731 [dir_watcher.py:finish():406] scan save: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/config.yaml config.yaml
+2023-03-10 18:52:44,846 INFO    SenderThread:379731 [dir_watcher.py:finish():406] scan save: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/output.log output.log
+2023-03-10 18:52:44,846 INFO    SenderThread:379731 [dir_watcher.py:finish():406] scan save: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/requirements.txt requirements.txt
+2023-03-10 18:52:44,848 INFO    SenderThread:379731 [dir_watcher.py:finish():406] scan save: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/wandb-metadata.json wandb-metadata.json
+2023-03-10 18:52:44,848 INFO    SenderThread:379731 [dir_watcher.py:finish():406] scan save: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/wandb-summary.json wandb-summary.json
+2023-03-10 18:52:44,850 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 10
+2023-03-10 18:52:44,852 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: poll_exit
+2023-03-10 18:52:44,852 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:44,852 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-10 18:52:44,852 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:44,852 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-10 18:52:44,852 INFO    SenderThread:379731 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-10 18:52:45,463 INFO    wandb-upload_1:379731 [upload_job.py:push():138] Uploaded file /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/config.yaml
+2023-03-10 18:52:45,521 INFO    wandb-upload_3:379731 [upload_job.py:push():138] Uploaded file /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/requirements.txt
+2023-03-10 18:52:45,527 INFO    wandb-upload_2:379731 [upload_job.py:push():138] Uploaded file /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/conda-environment.yaml
+2023-03-10 18:52:45,532 INFO    wandb-upload_0:379731 [upload_job.py:push():138] Uploaded file /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/output.log
+2023-03-10 18:52:45,551 INFO    wandb-upload_4:379731 [upload_job.py:push():138] Uploaded file /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/files/wandb-summary.json
+2023-03-10 18:52:45,752 INFO    Thread-12 :379731 [sender.py:transition_state():587] send defer: 11
+2023-03-10 18:52:45,752 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:45,752 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-10 18:52:45,752 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:45,752 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-10 18:52:45,752 INFO    SenderThread:379731 [file_pusher.py:join():167] waiting for file pusher
+2023-03-10 18:52:45,752 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 12
+2023-03-10 18:52:45,753 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:45,753 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-10 18:52:45,753 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:45,753 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-10 18:52:45,963 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 13
+2023-03-10 18:52:45,964 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:45,964 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-10 18:52:45,964 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:45,964 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-10 18:52:45,964 INFO    SenderThread:379731 [sender.py:transition_state():587] send defer: 14
+2023-03-10 18:52:45,964 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 18:52:45,964 INFO    HandlerThread:379731 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-10 18:52:45,964 DEBUG   SenderThread:379731 [sender.py:send():336] send: final
+2023-03-10 18:52:45,964 DEBUG   SenderThread:379731 [sender.py:send():336] send: footer
+2023-03-10 18:52:45,964 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: defer
+2023-03-10 18:52:45,964 INFO    SenderThread:379731 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-10 18:52:45,965 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-10 18:52:45,965 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: server_info
+2023-03-10 18:52:45,965 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-10 18:52:45,965 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-10 18:52:45,965 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: poll_exit
+2023-03-10 18:52:45,965 DEBUG   SenderThread:379731 [sender.py:send_request():363] send_request: server_info
+2023-03-10 18:52:46,173 INFO    MainThread:379731 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-10 18:52:46,173 INFO    MainThread:379731 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-10 18:52:46,173 INFO    MainThread:379731 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-03-10 18:52:46,174 DEBUG   HandlerThread:379731 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-10 18:52:46,174 INFO    HandlerThread:379731 [handler.py:finish():841] shutting down handler
+2023-03-10 18:52:46,965 INFO    WriterThread:379731 [datastore.py:close():299] close: /media/dongjae/vol4/MeltingpotNets_pytorch/wandb/run-20230310_185237-x2sqplbv/run-x2sqplbv.wandb
+2023-03-10 18:52:47,173 INFO    SenderThread:379731 [sender.py:finish():1493] shutting down sender
+2023-03-10 18:52:47,173 INFO    SenderThread:379731 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-10 18:52:47,173 INFO    SenderThread:379731 [file_pusher.py:join():167] waiting for file pusher

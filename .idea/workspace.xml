@@ -4,12 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dee29e24-2d77-41ca-860e-78d8a45421f9" name="Changes" comment="delete">
-      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/events.out.tfevents.1677686646.Dongjaeui-noteubug.local.7026.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/.gitignore" afterDir="false" />
+    <list default="true" id="dee29e24-2d77-41ca-860e-78d8a45421f9" name="Changes" comment="float sibal">
+      <change afterPath="$PROJECT_DIR$/logs/.fuse_hidden0000ac2900000011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000acbb00000019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000ace50000001a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000ad160000001b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/debug-cli.dongjae.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/latest-run" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/files/.fuse_hidden0000acbc00000015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/run-bc2rbfed.wandb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/conda-environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/wandb-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/wandb-summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/run-ylpmmxl4.wandb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/conda-environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/wandb-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/wandb-summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/run-3llphbg8.wandb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/conda-environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/wandb-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/wandb-summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/run-f1re1p5s.wandb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/conda-environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/wandb-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/wandb-summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/run-3rtxczve.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Fun_Hierarchy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fun_Hierarchy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feudalnet_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/feudalnet_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/events.out.tfevents.1677686646.Dongjaeui-noteubug.local.7026.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +121,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.feudalnet_main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Fun_Hierarchy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="feudalnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fun_Hierarchy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +203,81 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Fun_Hierarchy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Fun_Hierarchy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Fun_Hierarchy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Fun_Hierarchy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Fun_Hierarchy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -296,8 +443,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/feudalnet_main.py</url>
-          <line>234</line>
-          <option name="timeStamp" value="127" />
+          <line>55</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,0 +1,23 @@
+2023/03/10 06:46:31 PM Namespace(alpha=0.5, cuda=True, dilation=10, entropy_coef=0.001, env_max_step=300, env_name='MiniGrid-FourRooms-v0', eps=0.1, gamma_m=1, gamma_w=1, grad_clip=5.0, grid_size=19, hidden_dim_manager=256, hidden_dim_worker=64, lr=0.005, max_steps=100000000, mlp=1, num_steps=1000, num_workers=32, reward_reg=1, run_name='baseline', seed=0, time_horizon=10, whole=1)
+Traceback (most recent call last):
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py", line 414, in <module>
+    main(args)
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py", line 406, in main
+    experiment(args)
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py", line 111, in experiment
+    feudalnet = FeudalNetwork(
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet.py", line 48, in __init__
+    self.apply(weight_init)
+  File "/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 728, in apply
+    module.apply(fn)
+  File "/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 728, in apply
+    module.apply(fn)
+  File "/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 728, in apply
+    module.apply(fn)
+  File "/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 729, in apply
+    fn(self)
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/utils.py", line 202, in weight_init
+    torch.nn.init.orthogonal_(layer.weight.data)
+  File "/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/lib/python3.8/site-packages/torch/nn/init.py", line 484, in orthogonal_
+    q, r = torch.linalg.qr(flattened)
+RuntimeError: cusolver error: CUSOLVER_STATUS_INTERNAL_ERROR, when calling `cusolverDnCreate(handle)`

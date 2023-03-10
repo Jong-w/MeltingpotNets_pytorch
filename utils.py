@@ -60,6 +60,7 @@ class ReturnWrapper_wargs(ReturnWrapper):
     def step(self, action):
         obs, reward, done, info = self.env.step(action)
         # reward = np.ceil(reward)*self.multiplier/(self.steps+1)
+        reward = np.double(np.sign(reward))
         reward *= self.multiplier
         self.total_rewards += reward
         self.steps += 1

@@ -1,0 +1,47 @@
+
+2023/03/10 06:46:15 PM Namespace(alpha=0.5, cuda=True, dilation=10, entropy_coef=0.001, env_max_step=300, env_name='MiniGrid-FourRooms-v0', eps=0.1, gamma_m=1, gamma_w=1, grad_clip=5.0, grid_size=19, hidden_dim_manager=256, hidden_dim_worker=64, lr=0.0005, max_steps=100000000, mlp=1, num_steps=1000, num_workers=32, reward_reg=1, run_name='baseline', seed=0, time_horizon=10, whole=1)
+2023/03/10 06:46:17 PM > ep = 1 | total steps = 3072 | reward = 1.0 | length = 97 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 2 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 3 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 4 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 5 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 6 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 7 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 8 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 9 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 10 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 11 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 12 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 13 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 14 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 15 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 16 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 17 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 18 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 19 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 20 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 21 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 22 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 23 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 24 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 25 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 26 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 27 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 28 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 29 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 30 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 31 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+2023/03/10 06:46:19 PM > ep = 32 | total steps = 9568 | reward = 0.0 | length = 300 | hours = 0.001
+Traceback (most recent call last):
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py", line 414, in <module>
+    main(args)
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py", line 406, in main
+    experiment(args)
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet_main.py", line 144, in experiment
+    = feudalnet(x, goals, states, masks[-1])
+  File "/home/dongjae/anaconda3/envs/MeltingpotNets_pytorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/feudalnet.py", line 68, in forward
+    x = self.preprocessor(x)
+  File "/media/dongjae/vol4/MeltingpotNets_pytorch/preprocess.py", line 18, in __call__
+    return torch.FloatTensor(x).to(self.device)
