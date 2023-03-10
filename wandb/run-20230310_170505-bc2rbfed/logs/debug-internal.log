@@ -13881,3 +13881,7 @@
 2023-03-10 18:54:45,784 DEBUG   HandlerThread:157084 [handler.py:handle_request():144] handle_request: status_report
 2023-03-10 18:54:50,784 DEBUG   HandlerThread:157084 [handler.py:handle_request():144] handle_request: status_report
 2023-03-10 18:54:55,785 DEBUG   HandlerThread:157084 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 18:55:00,786 DEBUG   HandlerThread:157084 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 18:55:05,786 DEBUG   HandlerThread:157084 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 18:55:06,783 DEBUG   SenderThread:157084 [sender.py:send():336] send: stats
+2023-03-10 18:55:11,784 DEBUG   HandlerThread:157084 [handler.py:handle_request():144] handle_request: status_report

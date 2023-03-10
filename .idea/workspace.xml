@@ -4,63 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dee29e24-2d77-41ca-860e-78d8a45421f9" name="Changes" comment="float sibal">
-      <change afterPath="$PROJECT_DIR$/logs/.fuse_hidden0000ac2900000011" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000acbb00000019" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000ace50000001a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000ad160000001b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/debug-cli.dongjae.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/latest-run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/files/.fuse_hidden0000acbc00000015" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/run-bc2rbfed.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/run-ylpmmxl4.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/run-3llphbg8.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184628-f1re1p5s/run-f1re1p5s.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_184736-3rtxczve/run-3rtxczve.wandb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Fun_Hierarchy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fun_Hierarchy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dee29e24-2d77-41ca-860e-78d8a45421f9" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/events.out.tfevents.1678442288.gpu2.398519.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/MiniGrid-FourRooms-v0_baseline_FeudalNets_step=32000.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/files/conda-environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/files/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/files/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/files/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/files/wandb-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/files/wandb-summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20230310_185806-ca0112sw/run-ca0112sw.wandb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feudalnet_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/feudalnet_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/events.out.tfevents.1677686646.Dongjaeui-noteubug.local.7026.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wandb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/.fuse_hidden0000ac2900000011" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets].log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets].log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000acbb00000019" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000ace50000001a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/MiniGrid-FourRooms-v0[Feudal_Nets]/.fuse_hidden0000ad160000001b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/debug-cli.dongjae.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/debug-cli.dongjae.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/debug-internal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/latest-run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/files/.fuse_hidden0000acbc00000015" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20230310_170505-bc2rbfed/logs/debug-internal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20230310_171023-ylpmmxl4/logs/debug-internal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20230310_184613-3llphbg8/logs/debug-internal.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,15 +75,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dongjaekim/Library/CloudStorage/GoogleDrive-dongjae.k.kim@gmail.com/내 드라이브/연구/fun/Fun_Hierarchy/logs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.intellij.sdk.settings.AppSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/dongjaekim/Library/CloudStorage/GoogleDrive-dongjae.k.kim@gmail.com/내 드라이브/연구/fun/Fun_Hierarchy/logs",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/logs" />
@@ -402,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677737431450</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1678442098458</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678442098458</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,6 +396,13 @@
                       </list>
                     </value>
                   </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -427,16 +410,31 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update" />
     <MESSAGE value="new branch" />
     <MESSAGE value="go you go" />
     <MESSAGE value="file size commit" />
     <MESSAGE value="New branch for atari" />
     <MESSAGE value="delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
